@@ -1,0 +1,18 @@
+<div style="padding:20px; font-family:sans-serif;">
+  <h3>예탁금 잔액증명서</h3>
+  <p>발급관리번호 : <b>0025152169</b></p>
+ <p>예금주명 : <b>광일건설주식회사</b></p>
+ <p>잔액합계 : <b>일억오천삼백사십팔만천원</b></p>
+  <button onclick="copy()">복사</button>
+  <button onclick="search()">웹 검색</button>
+</div>
+
+<script>
+function copy() {
+  navigator.clipboard.writeText("0025152169");
+  alert("복사되었습니다");
+}
+function search() {
+  window.open("http://ibz.nonghyup.com");
+}
+</script>
